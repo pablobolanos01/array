@@ -15,10 +15,16 @@ public class Main1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //array tipo cadena
         String[] nombre={"Luis","Miguel","Carlos"}; 
         //recorrer array
         for(int i=0;i<nombre.length;i++){
             System.out.println(nombre[i]);
+        }
+        //array tipo double
+        double[] estatura={1.72,1.75,1.65};
+        for(int i=0;i<estatura.length;i++){
+            System.out.println(estatura[i]);
         }
     }
     
